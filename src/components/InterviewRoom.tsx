@@ -119,7 +119,7 @@ const InterviewRoom = () => {
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
                 <Brain className="h-6 w-6 text-primary" />
-                <span className="text-lg font-semibold text-primary">InterviewAI</span>
+                <span className="text-lg font-semibold text-primary">talkToHire</span>
               </div>
               <div className="h-6 w-px bg-border" />
               <div className="flex items-center space-x-2">

@@ -76,12 +76,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <header className="border-b border-border bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Brain className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold text-primary">InterviewAI</span>
+            <span className="text-2xl font-bold text-primary">talkToHire</span>
           </div>
           <nav className="hidden md:flex space-x-6">
             <a
@@ -240,7 +239,7 @@ const Index = () => {
           </h2>
           <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
             Join thousands of successful candidates who improved their interview
-            skills with InterviewAI
+            skills with talkToHire
           </p>
           <Button
             size="xl"
@@ -259,11 +258,11 @@ const Index = () => {
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Brain className="h-6 w-6 text-primary" />
               <span className="text-lg font-semibold text-primary">
-                InterviewAI
+                talkToHire
               </span>
             </div>
             <div className="text-sm text-muted-foreground">
-              © 2024 InterviewAI. All rights reserved.
+              © 2024 talkToHire. All rights reserved.
             </div>
           </div>
         </div>
