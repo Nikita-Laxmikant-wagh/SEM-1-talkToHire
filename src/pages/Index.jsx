@@ -147,7 +147,7 @@ const Index = () => {
                 <Button
                   size="xl"
                   variant="outline"
-                  className="border-white/20 text-white hover:bg-white/10"
+                  className="border-white/20 hover:text-white hover:bg-white/10 bg-white text-black"
                 >
                   Watch Demo
                 </Button>
@@ -233,8 +233,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-80 h-screen interview-gradient text-white">
-        <div className="mx-auto px-4 py-80 text-center">
+      <section className="py-20  interview-gradient text-white">
+        <div className="mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">
             Ready to Ace Your Next Interview?
           </h2>
